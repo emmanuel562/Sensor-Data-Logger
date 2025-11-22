@@ -4,7 +4,7 @@ Python File Handling Practice
 This mini-project is a collection of small Python scripts where I practiced different file-handling techniques.
 It covers text files, JSON files, and binary files — the three core formats you’ll meet often in automation, data logging, embedded systems, and general backend work.
 
-🔹 1. binary_write.py
+# 🔹 1. binary_write.py
 This script focuses on writing and reading binary data.
 It demonstrates:
   How to open files in "wb" and "rb" modes
@@ -12,7 +12,7 @@ It demonstrates:
   How to verify the written bytes
 Useful for: working with firmware dumps, sensor logs, or any low-level file.
 
-🔹 2. filer.py (Text Writer)
+# 🔹 2. filer.py (Text Writer)
 This script handles normal text file writing using common modes like:
   "w" (write)
   "a" (append)
@@ -23,14 +23,14 @@ It shows the basics of:
   Managing cursors with tell() and seek() (where possible)
 Useful for: logs, notes, simple storage, automation scripts.
 
-🔹 3. reader.py (Text Reader)
+# 🔹 3. reader.py (Text Reader)
 This file focuses on reading text files with:
   read(), readline(), readlines()
   Checking file size
   Navigating with the cursor
 Useful for: processing files, parsing logs, CLI-based tools.
 
-🔹 4. json_filer.py
+# 🔹 4. json_filer.py
 This script works with JSON data — the most important structured file format in Python automation.
 It demonstrates:
   Reading JSON (json.load)
@@ -38,3 +38,18 @@ It demonstrates:
   Appending items
   Writing back with json.dump(indent=10)
 Useful for: config files, device settings, API-style data, project templates.
+
+
+
+# Purpose of the Project
+This project serves as a personal practice space to master:
+  File handling basics
+  Cursor control (seek, tell)
+  JSON serialization
+  Binary data storage
+  
+# These skills are foundational for:
+  Automation scripts
+  Arduino/Python hybrid projects
+  Mechatronics logging systems
+  Future work with PySerial, device configs, and OOP
